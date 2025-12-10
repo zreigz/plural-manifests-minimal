@@ -1,19 +1,19 @@
-#apiVersion: deployments.plural.sh/v1alpha1
-#kind: ServiceDeployment
-#metadata:
-#  name: test-a
-#spec:
-#  namespace: test-a
-#  git:
-#    folder: service-test-a
-#    ref: main
-#  repositoryRef:
-#    kind: GitRepository
-#    name: plural-manifests-minimal
-#  clusterRef:
-#    kind: Cluster
-#    name: target-cluster-minimal
-#    namespace: default
-#  reconciliation:
-#    driftDetection: true
-#    interval: 30s
+apiVersion: deployments.plural.sh/v1alpha1
+kind: ServiceDeployment
+metadata:
+  name: test-a
+spec:
+  namespace: test-a
+  git:
+    folder: service-test-a
+    ref: main
+  repositoryRef:
+    kind: GitRepository
+    name: plural-manifests-minimal
+  clusterRef:
+    kind: Cluster
+    name: target-cluster-minimal
+    namespace: default
+  reconciliation:
+    driftDetection: true
+    interval: 30s
