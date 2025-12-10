@@ -14,3 +14,6 @@ spec:
     kind: Cluster
     name: target-cluster-minimal
     namespace: default
+  reconciliation:
+    driftDetection: true
+    interval: 30s
