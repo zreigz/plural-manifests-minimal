@@ -4,4 +4,4 @@ metadata:
   name: target-cluster-minimal
   namespace: default
 spec:
-  handle: mgmt
+  handle: lukasz

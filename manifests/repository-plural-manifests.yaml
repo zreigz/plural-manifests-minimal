@@ -3,4 +3,4 @@ kind: GitRepository
 metadata:
   name: plural-manifests-minimal
 spec:
-  url: https://github.com/maciaszczykm/plural-manifests-minimal.git
+  url: https://github.com/zreigz/plural-manifests-minimal.git
