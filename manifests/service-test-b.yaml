@@ -1,16 +1,16 @@
-#apiVersion: deployments.plural.sh/v1alpha1
-#kind: ServiceDeployment
-#metadata:
-#  name: test-b
-#spec:
-#  namespace: test-b
-#  git:
-#    folder: service-test-b
-#    ref: main
-#  repositoryRef:
-#    kind: GitRepository
-#    name: plural-manifests-minimal
-#  clusterRef:
-#    kind: Cluster
-#    name: target-cluster-minimal
-#    namespace: default
+apiVersion: deployments.plural.sh/v1alpha1
+kind: ServiceDeployment
+metadata:
+  name: test-b
+spec:
+  namespace: test-b
+  git:
+    folder: service-test-b
+    ref: main
+  repositoryRef:
+    kind: GitRepository
+    name: plural-manifests-minimal
+  clusterRef:
+    kind: Cluster
+    name: target-cluster-minimal
+    namespace: default
